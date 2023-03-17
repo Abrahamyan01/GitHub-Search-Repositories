@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>GitHub Repositories</title>
+</head>
+
+<body>
+    <section class="app">
+        <h1>GitHub Search</h1>
+        <form class="search-form">
+            <input type="text" name="name" class="search-input" placeholder="Search new Repositories..." required
+                minlength="3">
+            <div class="error"></div>
+            <button type="submit" class="search-btn">Search</button>
+        </form>
+        <h3 class="total">Please, submit to find Repositories... </h3>
+        <div class="repos"></div>
+    </section>
+    <script src="./main.js"></script>
+</body>
+
+</html>
